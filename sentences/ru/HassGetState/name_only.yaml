@@ -11,3 +11,9 @@ data:
     example: "что со спальней"
     name_domains: "default"
     response: "one"
+  - sentences:
+      - "какое состояние у {name}"
+    example: "какое состояние у Лампа"
+    name_domains: "default"
+    response: "one"
+    speech_to_phrase: true
